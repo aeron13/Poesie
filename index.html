@@ -5,6 +5,18 @@
         background-color: black;
       }
 
+      #wrapper {
+        height: 40%;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        font-family: monospace;
+        color: white;
+        text-align: center;
+        transform: translate(-50%, -50%);
+      }
+
       audio {
         position: absolute;
         top: 50%;
@@ -22,25 +34,30 @@
         font-size: 60px;
         color: white;
       }
+
     </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Poesia Sonora</title>
   </head>
   <body>
+    <div id="wrapper">
 
-    <p>
+      Stavo tornando a casa in bici dal Poli ed era sera.<br>
+      Attraverso il Parco Nord, che è completamente privo di illuminazione. <br>
+      Quando passo accanto al laghetto più nuovo, quello di fianco al Gigante, a volte la luna si riflette sull'acqua.
+    <br> In quei momenti, non c'è mai nessuno tutto intorno. <br> per vedere la luna, mi fermo e scendo sul bordo del lago.
 
-    </p>
-    <div id="cuffie">
-      <i class="fa fa-headphones"></i>
-    </div>
+
+
+  </div>
 
     <div id="container">
       <audio controls>
         <source src="passo.mp3" type="audio/mpeg">
         </audio>
     </div>
+    
 
   </body>
 </html>
